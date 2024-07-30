@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(fondo.svg) ;
+}
+
+.conteiner{
+    
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.conteiner h2{
+    padding: 10%;
+    color: white;
+}
+
+.conteiner button{
+    font-size: 30px;
+    border-radius: 6px;
+    color: white;
+}
+
+#noBtn{
+    background-color: rgb(251, 70, 70);
+    margin-left: 20px;
+    position: absolute;
+}
+
+#yesBtn{
+    background-color: green;
+}
+
